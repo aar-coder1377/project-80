@@ -1,0 +1,49 @@
+<html>
+<head>
+    <title>C80</title>
+  
+    <script src="main1.js"></script>
+
+
+</head>
+<body>
+    <center>
+        <h3 style="margin-top: 20px; margin-bottom: 20px; ">
+            Guest List
+        </h3>
+
+        <div id="rows">
+            <input type="text" placeholder="Enter Person Here" id="name_of_person">
+        </div>
+        <button type="button" onclick="AddGuestName()" id="submit_button">
+            Submit
+        </button>
+        <div id="guest_row" style="background-color:bisque;width:200px;border:2px;border-color:black"></div>
+        <br>
+
+
+        <div id="guest_list" style="background-color:paleturquoise;width:200px;border:2px;border-color:black"></div>
+        
+
+
+        <br>
+        <br>
+    </center>
+    <center>
+        <button type="button" onclick="guest_sort()" id="sort_button"> Sort </button>
+        <br> <br>
+        <div id="guest_list_sort" style="background-color:lightgoldenrodyellow;width:200px;border:2px;border-color:black"></div>
+        <br>
+        <br>
+        <input type="text" placeholder="Search name here" id="search_input">
+        <button type="button" onclick="guest_search()" id="search_button"> Search </button>
+        <div id="search_result"></div>
+
+
+
+
+    </center>
+
+
+</body>
+</html>
